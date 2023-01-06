@@ -4,19 +4,24 @@
    background-size: cover;
    height: 500px;
    width: 100%;
-   
-   
 }
 .banner-text{
-    
+    padding-top: 90px;
     text-align: end;
      margin-right: 150px;
      margin-left:  600px;
-     
 }
 .banner-title{
     font-weight: 900;
     font-size: 50px;
+}
+.banner-btn{
+    background-color: olivedrab;
+    border: none;
+    padding: 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: antiquewhite;
 }
 /* <!-- mean --> */
 .cointainer{
