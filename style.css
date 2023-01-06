@@ -28,14 +28,18 @@
      align-items: center;
 }
  .main-title{
-     font-weight: bold;
+     /* font-weight: bold; */
      font-size: 35px;
  }
  .main-des{
-    font-size: 14px;
+    font-size: 12px;
  }
- .main-right{
-    font-size: 14px;
+ .font-size{
+    font-size: 12px;
+ }
+ .font-check{
+    color: rgb(36, 170, 36);
+    
  }
  
  
