@@ -41,8 +41,70 @@
     color: rgb(36, 170, 36);
     
  }
- 
- 
- 
+ /* My Plans */
+ .plan-header{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 40px;
+    color: orange;
+ }
+ .plan-continer{
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    display:  flex;
+ }
+ .plan-title{
+    font-weight: 800;
+ }
+ .plan-dis{
+    font-size: 16px;
+    color: gray;
+ }
+ /* Footer */
+ footer{
+    background-color: black;
+    
+ }
+ .Future{
+    font-size: 35px;
+    font-weight: 900;
+ }
+ .continer{
+    gap: 250px;
+    padding: 100px 200px 100px  ;
+    color: white;
+    display: flex;
+     
+ }
+ .footer-text{
+    font-size: 12px;
+
+ }
+ .Subscribe{
+    font-weight: 700;
+    font-size: 25px;
+ }
+ .input-coler{
+    padding: 15px;
+    background-color: black;
+    color: white;
+ }
+ .footer-btn{
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: rgb(71, 71, 227);
+ }
+  
+  
+  
+  
+  
+  
  
  
