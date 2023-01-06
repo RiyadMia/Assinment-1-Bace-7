@@ -2,7 +2,7 @@
    background-image: url("images/banner/banner2.png");
    background-repeat: no-repeat;
    background-size: cover;
-   height: 500px;
+   height: 600px;
    width: 100%;
 }
 .banner-text{
@@ -76,9 +76,9 @@
     padding: 15px;
  }
  .plan:hover{
-    background-color: lightgray;
+    background: linear-gradient(45deg, red, blue);
     border-radius: 8px;
-    box-shadow: 10px 8px 5px;
+    box-shadow: 10px 10px 10px;
      
  }
  /* <!-- Linier grident --> */
@@ -87,8 +87,8 @@
     font-size: 35px;
  }
  .grident-continer{
-    background-image: linear-gradient(to right , 
-rgb(0, 255, 21),gray );
+
+    background: linear-gradient(135deg, orange 60%, cyan);
     margin-top: 80px;
     padding: 50px;
     
@@ -123,8 +123,8 @@ rgb(0, 255, 21),gray );
     box-shadow: 15px 20px 10px;
  }
  .Popular:hover{
+    background: linear-gradient(50deg, rgb(0, 255, 21) 60%, cyan);
     
-    background-color: lightgray;
  }
  .star:hover{
     color: red;
