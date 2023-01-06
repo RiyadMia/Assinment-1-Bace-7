@@ -4,7 +4,40 @@
    background-size: cover;
    height: 500px;
    width: 100%;
+   
+   
 }
+.banner-text{
+    
+    text-align: end;
+     margin-right: 150px;
+     margin-left:  600px;
+     
+}
+.banner-title{
+    font-weight: 900;
+    font-size: 50px;
+}
+/* <!-- mean --> */
+.cointainer{
+    margin: 100px 100px 200px 100px;
+}
+.main-cointainer{
+    gap: 50px;
+    display: flex;
+     align-items: center;
+}
+ .main-title{
+     font-weight: bold;
+     font-size: 35px;
+ }
+ .main-des{
+    font-size: 14px;
+ }
+ .main-right{
+    font-size: 14px;
+ }
+ 
  
  
  
