@@ -16,16 +16,17 @@
     font-size: 50px;
 }
 .banner-btn{
-    background-color: olivedrab;
+    background-image: linear-gradient(to right, 
+    yellow ,red);
     border: none;
     padding: 16px;
     border-radius: 4px;
     font-weight: 600;
-    color: antiquewhite;
+   font-size: 15px;
 }
 /* <!-- mean --> */
 .cointainer{
-    margin: 100px 100px 200px 100px;
+    margin: 100px 100px 100px 100px;
 }
 .main-cointainer{
     gap: 50px;
@@ -67,6 +68,27 @@
     font-size: 16px;
     color: gray;
  }
+ /* <!-- Linier grident --> */
+ .liner-titel{
+    font-weight: 900;
+    font-size: 35px;
+ }
+ .grident-continer{
+    background-image: linear-gradient(to right , 
+rgb(0, 255, 21),gray );
+    margin-top: 40px;
+    padding: 50px;
+    
+ }
+ .liner-btn{
+    padding:  7px 20px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, red , yellow);
+    font-size: 15px;
+    font-weight: 800;
+ }
+
  /* <!-- Popular Collection--> */
  .Popular-headers{
     text-align: center;
@@ -124,8 +146,13 @@
     color: white;
     border: none;
     background-color: rgb(71, 71, 227);
+    background-image: linear-gradient(to right, rgb(112, 9, 216),rgb(11, 109, 220) )
  }
-  
+ .logo{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+ }
   
   
   
