@@ -6,10 +6,10 @@
    width: 100%;
 }
 .banner-text{
-    padding-top: 90px;
+    padding-top: 90px ;
+    margin: auto;
+    padding-right: 80px;
     text-align: end;
-     margin-right: 150px;
-     margin-left:  600px;
 }
 .banner-title{
     font-weight: 900;
@@ -30,15 +30,18 @@
 }
 /* <!-- mean --> */
 .cointainer{
-    margin: 100px 100px 100px 100px;
+    padding: 100px;
 }
 .main-cointainer{
-    gap: 50px;
+    gap: 80px;
     display: flex;
      align-items: center;
 }
+.img-bg{
+    height: 500px;
+    width: 400px;
+}
  .main-title{
-     /* font-weight: bold; */
      font-size: 35px;
  }
  .main-des{
@@ -108,13 +111,17 @@
     font-size: 40px;
     font-weight: 900;
     color:orange ;
+     
+ }
+ .camara-img{
+    height: 160px;
+    width: 150px;
  }
  .Popular-continer{
+    justify-content: center;
     text-align: center;
     display: flex;
-    gap: 30px;
-    margin: 50px 50px 50px 50px;
-  
+    gap: 80px;
  }
  .Popular{
     background-color: grey;
@@ -155,7 +162,9 @@
     font-size: 25px;
  }
  .input-coler{
-    padding: 15px;
+    padding: 10px;
+    
+    
     background-color: black;
     color: white;
  }
@@ -174,8 +183,32 @@
     width: 20px;
     margin: 5px;
  }
-  
-  
+ /* Media queries? *
+/* Mobile divise */
+
+ @media only screen and (max-width:888px){
+    .main-cointainer,.plan-continer,.Popular-continer,.continer{
+        display: block;
+    }
+    .input-coler{
+height: 10px;
+width: 80px;
+    }
+    .Popular{
+margin-top: 30px;
+    }
+    .banner-text{
+        padding-top: 40px;
+    }
+    .img-bg{
+        height: 300px;
+        width: 180px;
+    }
+ }
+     
+    
+   
+   
   
   
   
