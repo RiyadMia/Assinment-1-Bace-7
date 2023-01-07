@@ -33,19 +33,20 @@
     padding: 100px;
 }
 .main-cointainer{
-    gap: 80px;
+    gap: 100px;
     display: flex;
-     align-items: center;
+    align-items: center;
 }
 .img-bg{
-    height: 500px;
-    width: 400px;
+    height: 550px;
+    width: 500px;
 }
  .main-title{
      font-size: 35px;
  }
  .main-des{
     font-size: 12px;
+    color: gray;
  }
  .font-size{
     font-size: 12px;
@@ -90,11 +91,13 @@
     font-size: 35px;
  }
  .grident-continer{
-
-    background: linear-gradient(135deg, orange 60%, cyan);
+    background: linear-gradient(135deg, orange 50%, cyan);
     margin-top: 80px;
     padding: 50px;
     
+ }
+ .grident-continer:hover{
+   background: linear-gradient(135deg, rgb(230, 16, 191) 50%, rgb(224, 13, 13));
  }
  .liner-btn{
     padding:  7px 20px;
@@ -114,18 +117,18 @@
      
  }
  .camara-img{
-    height: 160px;
-    width: 150px;
+    height: 220px;
+    width: 220px;
  }
  .Popular-continer{
     justify-content: center;
     text-align: center;
     display: flex;
-    gap: 80px;
+    gap: 50px;
  }
  .Popular{
     background-color: grey;
-    padding: 18px;
+    padding: 20px;
     border-radius: 7px;
     box-shadow: 15px 20px 10px;
  }
@@ -163,8 +166,6 @@
  }
  .input-coler{
     padding: 10px;
-    
-    
     background-color: black;
     color: white;
  }
@@ -190,6 +191,9 @@
     .main-cointainer,.plan-continer,.Popular-continer,.continer{
         display: block;
     }
+    .banner-title{
+font-size: 30px;
+    }
     .input-coler{
 height: 10px;
 width: 80px;
@@ -203,6 +207,21 @@ margin-top: 30px;
     .img-bg{
         height: 300px;
         width: 180px;
+    }
+    .continer{
+      padding: 25px;
+
+    }
+    .Popular-headers{
+      font-size: 15px;
+    }
+    .camara-img{
+      height: 150px;
+      width: 135px;
+    }
+    .liner-titel{
+       
+      font-size: 20px;
     }
  }
      
