@@ -86,21 +86,43 @@
      
  }
  /* <!-- Linier grident --> */
+  
+  
  .liner-titel{
+   color: white;
+   padding: 20px;
     font-weight: 900;
     font-size: 35px;
  }
  .grident-continer{
-    background: linear-gradient(135deg, orange 50%, cyan);
-    margin-top: 80px;
-    padding: 50px;
-    
+     background-image:url("images/watch.png");
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     margin-top: 80px;
+     padding: 100px;
+     transition: 3s;
  }
+
+ .grident-coler{
+   height: 100%;
+   width: 100%;
+   background: linear-gradient(115deg, rgba(0,0,0,0.4)20%,rgba(0,0,0,0.4)25%,rgba(0,23,149,0.6)50%,rgba(255,0,0,0.4)75%,rgba(0,23,149,0.6)100%);
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+ }
+
+
  .grident-continer:hover{
    background: linear-gradient(135deg, rgb(230, 16, 191) 50%, rgb(224, 13, 13));
  }
+
  .liner-btn{
     padding:  7px 20px;
+    margin-left: 30px;
     border: none;
     border-radius: 5px;
     background-image: linear-gradient(to right, red , yellow);
